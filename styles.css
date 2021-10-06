@@ -6,7 +6,17 @@
 }
 html{
     scroll-behavior: smooth;
+    
 }
-.body {
-    background-color: rgb(61, 28, 28);
+body{
+    background-color: rgb(243, 193, 193);
+}
+body .department{
+    visibility: hidden;
+}
+body .semester{
+    visibility: hidden;
+}
+body .table{
+    visibility: hidden;
 }
