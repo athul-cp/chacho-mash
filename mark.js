@@ -262,6 +262,7 @@ let ec62015 = [
         code : "EC 15-1606",
         sub_name : "Elective – I",
         credit : 3
+    },
     {
         code : "EC 15-16L1",
         sub_name : "Digital Signal Processing Lab",
@@ -272,7 +273,7 @@ let ec62015 = [
         sub_name : "Communication Lab I",
         credit : 2
     }
-
+]
 
 let ec72015 = [
     {
