@@ -437,38 +437,44 @@ let cs22015 = [
 
     },
     {
-        code : "GE 15-1203B",
+        code : "GE15-1203B",
         sub_name : "Engineering Mechanics",
         credit : 4
 
     },
     {
-        code : "GE 15-1205B",
-        sub_name : "Basic Mechanical Engineering",
+        code : "GE15-1205B",
+        sub_name : "Basic Civil Engineering",
         credit : 3
     },
     {
-        code : "HS 15-12L1B",
+        code : "GE15-1205B",
+        sub_name : "Basic Mechanical Engineering",
+        credit : 3
+    
+    },
+    {
+        code : "HS15-1206B",
         sub_name : "Technical Communications and Professional Ethics",
         credit : 2
     },
     {
-        code : "GE 15-12L1B",
+        code : "GE15-12L1B",
         sub_name : "Civil Engineering Workshop",
         credit : 1
     },
     {
-        code : "GE 15-12L2B",
+        code : "GE15-12L2B",
         sub_name : "Mechanical Engineeering Workshop",
         credit : 1
     },
     {
-        code : "HS 15-12L3B",
+        code : "HS15-12L3B",
         sub_name : "Language Lab",
         credit : 1
     },
     {
-        code : "HS 15-12L4B",
+        code : "HS15-12L4B",
         sub_name : "NSS/Nature Conversation",
         credit : 1
     }
@@ -758,7 +764,8 @@ let cs82015 = [
 
 
 let it12015 = [
-    code : "GE 1101B",
+    {
+        code : "GE 1101B",
         sub_name : "Computer Programming",
         credit : 3
     },
@@ -1252,7 +1259,7 @@ let eee22015 = [
 
 let eee32015 = [
     {
-        code : "AS15- 1301",
+        code : "AS15-1301",
         sub_name : "Linear Algebra & Transform Techniques",
         credit : 3
     },
@@ -1614,7 +1621,7 @@ let ce22015 = [
         credit : 3
     },
     {
-        code : "GE15-12L1A",
+        code : "AS15-1206A",
         sub_name : "Environmental Studies",
         credit : 3
     },
@@ -1624,7 +1631,7 @@ let ce22015 = [
         credit : 1
     },
     {
-        code : "12L2A",
+        code : "GE15-12L2A",
         sub_name : "Computer Programming Laboratory",
         credit : 1
     }
@@ -1877,8 +1884,7 @@ let ce72015 = [
 let ce82015 = [
     {
         code : "CE15- 1801",
-        sub_name : "Architecture and Town
-        Planning",
+        sub_name : "Architecture and Town Planning",
         credit : 3
     },
     {
@@ -1889,8 +1895,7 @@ let ce82015 = [
     },
     {
         code : "CE15-1803",
-        sub_name : "Construction Safety and
-        Fire Engineering",
+        sub_name : "Construction Safety and Fire Engineering",
         credit : 3
 
     },
@@ -1900,30 +1905,19 @@ let ce82015 = [
         credit : 3
     },
     {
-        code : "CE15-1805",
-        sub_name : "Transportation Engineering –II",
-        credit : 3
-    },
-    {
-        code : "CE15-1806",
-        sub_name : "Elective- I",
-        credit : 3
-    },
-    {
         code : "CE15-18L1",
         sub_name : "Seminar",
         credit : 2
     },
     {
         code : "CE15-18L2",
-        sub_name : "Project – Phase II",
+        sub_name : "Project Phase I",
         credit : 6
     },
     {
         code : "CE15-18L3",
         sub_name : "Comprehensive Viva Voce",
         credit : 2
-
     }
 ]
 
@@ -1932,7 +1926,7 @@ let ce82015 = [
 let me12015 = [
     {
         code : "AS15-1101A",
-        sub_name : "Engineering Mathematics–I",
+        sub_name : "Calculus",
         credit : 3
     },
     {
