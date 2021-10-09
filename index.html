@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>chacho-mash</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="title">
-        <h1> CUSAT  MARK </h1>
-        <br>
+      <h1>CUSAT MARK</h1>
+      <br />
     </div>
     <table>
-        <th></th>
-        <tr>
-            <td>Department : </td>
-            <td><select name="branch" id="branch">
-                <option value="me">Mechnical Engineering</option>
-                <option value="ce">Civil Engineering</option>
-                <option value="Cse">Computer Science and Engineering</option>
-                <option value="ec">Electronics and Communication Engineering</option>
-                <option value="eee">Electrical and Electronics Engineering </option>
-                <option value="it">Information and Technology</option><br>
-            </select></td>
-        </tr>
-        <tr>
-            <td>Scheme : </td>
-            <td><select name="scheme" id="scheme">
-                <option value="2012">2012</option>
-                <option value="2015">2015</option>
-                <option value="2022">2022</option>
-            </select></td>
-        </tr>
+      <th></th>
+      <tr>
+        <td>Department :</td>
+        <td>
+          <select name="branch" id="branch">
+            <option value="me">Mechnical Engineering</option>
+            <option value="ce">Civil Engineering</option>
+            <option value="Cse">Computer Science and Engineering</option>
+            <option value="ec">
+              Electronics and Communication Engineering
+            </option>
+            <option value="eee">Electrical and Electronics Engineering</option>
+            <option value="it">Information and Technology</option>
+            <br />
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Scheme :</td>
+        <td>
+          <select name="scheme" id="scheme">
+            <option value="2012">2012</option>
+            <option value="2015">2015</option>
+            <option value="2022">2022</option>
+          </select>
+        </td>
+      </tr>
     </table>
-    <br>
+
+    <table id="mytable">
+      <caption>
+        Semester One Mark Entry.
+      </caption>
+
+      <tr>
+        <th>Subject Code</th>
+        <th>Name of subject</th>
+        <th>Credit value</th>
+        <th>Grade point</th>
+      </tr>
+    </table>
+    <br />
+    <button onClick="createRow(ec12015)">Insert</button>
+
+    <!-- <br>
     <table style="width:50%">
         <tr>
             <th>Code No</th>
@@ -196,8 +219,8 @@
                 </select>
             </td>
         </tr>
-    </table>
+    </table> -->
     <button value="CGPA">Get CGPA</button>
-    
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
