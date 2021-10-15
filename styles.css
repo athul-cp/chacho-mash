@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +8,109 @@
 }
 html{
     scroll-behavior: smooth;
+    
 }
-.body {
-    background-color: rgb(61, 28, 28);
+body{
+    background: linear-gradient(260.64deg, rgba(255, 0, 0, 0.33) -11.08%, #00FFD1 91.16%, rgba(0, 255, 210, 0.47) 185.24%);
+    font-family: 'PT Serif', serif;
 }
+
+.header{
+    text-align: center;
+    margin: 1rem;
+    font-style: normal;
+    font-weight: bold;
+}
+.header .title h1{
+    font-size: 64px;
+    line-height: 80px;
+    color: #571248;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title h3{
+    font-size: 34px;
+    line-height: 42px;
+    color: #26FFD8;
+}
+.scheme , .department , .semester{
+    margin: 4vh;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    color: rgba(122, 0, 95, 0.85);
+    
+   
+}
+.department{
+    visibility: hidden;
+}
+.semester{
+    visibility: hidden;
+}
+.row1::-webkit-scrollbar {
+    display: none;
+  }
+.row1{
+    display: flex;
+    justify-content: flex-start;
+    overflow: auto;    
+}
+ .button{
+    
+    margin: 0 auto 0 0;
+    margin-left: 3rem;
+    color: #fff;
+    padding: 2rem 4rem;
+    /*background: linear-gradient(260.64deg, rgba(255, 0, 0, 0.33) -11.08%, #00FFD1 91.16%, rgba(0, 255, 210, 0.47) 185.24%);*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.sbutton{
+    margin-left: 3rem;
+    height: 50px;
+    width: 80px;
+    color: rgba(122, 0, 95, 0.85);
+    border-radius: 10px;
+    border-color: rgba(122, 0, 95, 0.85);
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+
+table,th,td{
+    margin-left: 30px;
+    margin-top: 2px;
+    align-items: center;
+    width: 60%;
+    border:1px solid rgba(122, 0, 95, 0.85);
+    visibility: hidden;
+}
+th{
+    height: 50px;
+}
+td{
+    text-align: center;
+}
+.okbutton{
+    margin-top: 4px;
+    margin-left: 45px;
+    height: 30px;
+    width: 150px;
+    color: rgba(122, 0, 95, 0.85);
+    border-radius: 5px;
+    background-color: #03E8BE;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    visibility: hidden;
+}
+/*body .button{
+    visibility: hidden;
+}*/
