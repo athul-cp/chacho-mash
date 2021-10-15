@@ -8,10 +8,67 @@
     <title>chacho-mash</title>
   </head>
   <body>
-    <div class="title">
-      <h1>CUSAT MARK</h1>
-      <br />
+    <div class="header">
+        <div class="title">
+          <h1>CUSAT MARK</h1>
+          <br />
+            <h3>CGPA Calculator for CUSAT</h3>
+        </div>
     </div>
+        <div class="scheme" >
+            Scheme
+        </div>
+
+    <div class="row1">
+        <button class="button" value="2012"
+         style="background:linear-gradient(260.64deg, rgba(255, 0, 0, 0.33) -11.08%, #00FFD1 91.16%, rgba(0, 255, 210, 0.47) 185.24%);"
+         onclick="s2012()"
+         >2012</button>
+        <button class="button" value="2015" style="background: linear-gradient(163.58deg, rgba(255, 0, 0, 0.33) 26.56%, #00FFD1 100.61%, rgba(0, 255, 210, 0.47) 173.19%);"
+        onclick="s2015()">2015</button>
+        <button class="button" value="2019" style="background: linear-gradient(257.05deg, rgba(255, 0, 0, 0.33) -8.59%, #00FFD1 91.2%, rgba(0, 255, 210, 0.47) 106.95%);"
+        onclick="s2019()">2019</button>
+    </div>
+
+
+
+    <div class="department" id="department">
+        Department
+    </div>
+    <div class="row1">
+        <button class="button" id="me" value="me" style="background: linear-gradient(248.57deg, rgba(255, 0, 0, 0.33) 2.96%, #00FFD1 82.17%, rgba(0, 255, 210, 0.47) 200.04%);
+        visibility:hidden" onclick="dme()">Mechnical Engineering</button>
+        <button class="button" id="ce" value="ce" style="background: linear-gradient(243.33deg, rgba(255, 0, 0, 0.33) 21.94%, #00FFD1 90.85%, rgba(53, 255, 219, 0.786642) 110.03%, rgba(0, 255, 210, 0.47) 138.48%);
+        visibility:hidden" onclick="dce()">Civil Engineering</button>
+        <button class="button" id="eee" value="eee" style="background: linear-gradient(236.86deg, rgba(255, 0, 0, 0.33) -3.06%, #00FFD1 93.87%, rgba(0, 255, 210, 0.47) 140.81%);
+        visibility:hidden" onclick="deee()">Electrical & Electronics Engineering</button>
+        <button class="button" id="ece" value="ece" style="background: linear-gradient(236.86deg, rgba(255, 0, 0, 0.33) -3.06%, #00FFD1 93.87%, rgba(0, 255, 210, 0.47) 140.81%);
+        visibility:hidden" onclick="dec()">Electronics & Communication Engineering</button>
+        <button class="button" id="cse" value="cse" style="background: linear-gradient(243.33deg, rgba(255, 0, 0, 0.33) 21.94%, #00FFD1 90.85%, rgba(53, 255, 219, 0.786642) 110.03%, rgba(0, 255, 210, 0.47) 138.48%);
+        visibility:hidden" onclick="dcse()">Computer Science & Engineering</button>
+        <button class="button" id="it" value="it" style="background: linear-gradient(236.86deg, rgba(255, 0, 0, 0.33) -3.06%, #00FFD1 93.87%, rgba(0, 255, 210, 0.47) 140.81%);
+        visibility:hidden" onclick="dit()">Information & Technology</button>
+    </div>
+    <div class="semester" id="semester">
+        Semester
+    </div>
+    <div class="row1">
+        <button class="sbutton" id="1" value="1">S1</button>
+        <button class="sbutton" id="2" value="2">S2</button>
+        <button class="sbutton" id="3" value="3">S3</button>
+        <button class="sbutton" id="4" value="4">S4</button>
+        <button class="sbutton" id="5" value="5">S5</button>
+        <button class="sbutton" id="6" value="6">S6</button>
+        <button class="sbutton" id="7" value="7">S7</button>
+        <button class="sbutton" id="8" value="8">S8</button>
+    </div>
+    
+    
+    
+    
+    
+       
+    <!--
     <table>
       <th></th>
       <tr>
@@ -55,172 +112,178 @@
       </tr>
     </table>
     <br />
-    <button onClick="createRow(ec12015)">Insert</button>
-
-    <!-- <br>
-    <table style="width:50%">
-        <tr>
-            <th>Code No</th>
-            <th>Subject</th>
-            <th>Credit</th>
-            <th>Grade</th>
-        </tr>
-        <tr>
-            <td>GE15-1101B</td>
-            <td>Computer Programming</td>
-            <td>3</td>
-            <td>
-                <select name="cp" id="cp">
-                    <option value="10">S</option>
-                    <option value="9.5">A+</option>
-                    <option value="9">A</option>
-                    <option value="8.5">B+</option>
-                    <option value="8">B</option>
-                    <option value="7.5">C+</option>
-                    <option value="7">C</option>
-                    <option value="6.5">D+</option>
-                    <option value="6">D</option>
-                    <option value="0">F</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>AS15-1102B</td>
-            <td>Engineering Chemistry</td>
-            <td>3</td>
-            <td>
-                <select name="ec" id="ec">
-                    <option value="10">S</option>
-                    <option value="9.5">A+</option>
-                    <option value="9">A</option>
-                    <option value="8.5">B+</option>
-                    <option value="8">B</option>
-                    <option value="7.5">C+</option>
-                    <option value="7">C</option>
-                    <option value="6.5">D+</option>
-                    <option value="6">D</option>
-                    <option value="0">F</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>GE15-1103B</td>
-            <td>Engineering Graphics</td>
-            <td>5</td>
-            <td>
-                <select name="eg" id="eg">
-                    <option value="10">S</option>
-                    <option value="9.5">A+</option>
-                    <option value="9">A</option>
-                    <option value="8.5">B+</option>
-                    <option value="8">B</option>
-                    <option value="7.5">C+</option>
-                    <option value="7">C</option>
-                    <option value="6.5">D+</option>
-                    <option value="6">D</option>
-                    <option value="0">F</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>GE15-1104B</td>
-            <td>Basic Electrical Engineering</td>
-            <td>3</td>
-            <td>
-                <select name="bee" id="bee">
-                    <option value="10">S</option>
-                    <option value="9.5">A+</option>
-                    <option value="9">A</option>
-                    <option value="8.5">B+</option>
-                    <option value="8">B</option>
-                    <option value="7.5">C+</option>
-                    <option value="7">C</option>
-                    <option value="6.5">D+</option>
-                    <option value="6">D</option>
-                    <option value="0">F</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>GE15-1105B</td>
-            <td>Basic Electronics Engineering</td>
-            <td>3</td>
-            <td>
-                <select name="bec" id="bec">
-                    <option value="10">S</option>
-                    <option value="9.5">A+</option>
-                    <option value="9">A</option>
-                    <option value="8.5">B+</option>
-                    <option value="8">B</option>
-                    <option value="7.5">C+</option>
-                    <option value="7">C</option>
-                    <option value="6.5">D+</option>
-                    <option value="6">D</option>
-                    <option value="0">F</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>GE15-1106B</td>
-            <td>Environmental Studies</td>
-            <td>3</td>
-            <td>
-                <select name="evs" id="evs">
-                    <option value="10">S</option>
-                    <option value="9.5">A+</option>
-                    <option value="9">A</option>
-                    <option value="8.5">B+</option>
-                    <option value="8">B</option>
-                    <option value="7.5">C+</option>
-                    <option value="7">C</option>
-                    <option value="6.5">D+</option>
-                    <option value="6">D</option>
-                    <option value="0">F</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>GE15-11L1B</td>
-            <td>Electrical Engineering 
-                Workshop</td>
-            <td>1</td>
-            <td>
-                <select name="bec" id="bec">
-                    <option value="10">S</option>
-                    <option value="9.5">A+</option>
-                    <option value="9">A</option>
-                    <option value="8.5">B+</option>
-                    <option value="8">B</option>
-                    <option value="7.5">C+</option>
-                    <option value="7">C</option>
-                    <option value="6.5">D+</option>
-                    <option value="6">D</option>
-                    <option value="0">F</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>GE15-11L2B</td>
-            <td>Computer Programming 
-                Laboratory</td>
-            <td>1</td>
-            <td>
-                <select name="bec" id="bec">
-                    <option value="10">S</option>
-                    <option value="9.5">A+</option>
-                    <option value="9">A</option>
-                    <option value="8.5">B+</option>
-                    <option value="8">B</option>
-                    <option value="7.5">C+</option>
-                    <option value="7">C</option>
-                    <option value="6.5">D+</option>
-                    <option value="6">D</option>
-                    <option value="0">F</option>
-                </select>
-            </td>
-        </tr>
-    </table> -->
-    <button value="CGPA">Get CGPA</button>
-    <script src="script.js"></script>
+    <button onClick="createRow(ec12015)">Insert</button> -->
+    <br>
+    <br>
+    <div class="row1">
+         
+        <table>
+            <tr>
+                <th>Code No   </th>
+                <th>Subject  </th>
+                <th>  Credit  </th>
+                <th>  Grade  </th>
+            </tr>
+            <tr>
+                <td>GE15-1101B</td>
+                <td>Computer Programming</td>
+                <td>3</td>
+                <td>
+                    <select name="cp" id="cp">
+                        <option value="10">S</option>
+                        <option value="9.5">A+</option>
+                        <option value="9">A</option>
+                        <option value="8.5">B+</option>
+                        <option value="8">B</option>
+                        <option value="7.5">C+</option>
+                        <option value="7">C</option>
+                        <option value="6.5">D+</option>
+                        <option value="6">D</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>AS15-1102B</td>
+                <td>Engineering Chemistry</td>
+                <td>3</td>
+                <td>
+                    <select name="ec" id="ec">
+                        <option value="10">S</option>
+                        <option value="9.5">A+</option>
+                        <option value="9">A</option>
+                        <option value="8.5">B+</option>
+                        <option value="8">B</option>
+                        <option value="7.5">C+</option>
+                        <option value="7">C</option>
+                        <option value="6.5">D+</option>
+                        <option value="6">D</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>GE15-1103B</td>
+                <td>Engineering Graphics</td>
+                <td>5</td>
+                <td>
+                    <select name="eg" id="eg">
+                        <option value="10">S</option>
+                        <option value="9.5">A+</option>
+                        <option value="9">A</option>
+                        <option value="8.5">B+</option>
+                        <option value="8">B</option>
+                        <option value="7.5">C+</option>
+                        <option value="7">C</option>
+                        <option value="6.5">D+</option>
+                        <option value="6">D</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>GE15-1104B</td>
+                <td>Basic Electrical Engineering</td>
+                <td>3</td>
+                <td>
+                    <select name="bee" id="bee">
+                        <option value="10">S</option>
+                        <option value="9.5">A+</option>
+                        <option value="9">A</option>
+                        <option value="8.5">B+</option>
+                        <option value="8">B</option>
+                        <option value="7.5">C+</option>
+                        <option value="7">C</option>
+                        <option value="6.5">D+</option>
+                        <option value="6">D</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>GE15-1105B</td>
+                <td>Basic Electronics Engineering</td>
+                <td>3</td>
+                <td>
+                    <select name="bec" id="bec">
+                        <option value="10">S</option>
+                        <option value="9.5">A+</option>
+                        <option value="9">A</option>
+                        <option value="8.5">B+</option>
+                        <option value="8">B</option>
+                        <option value="7.5">C+</option>
+                        <option value="7">C</option>
+                        <option value="6.5">D+</option>
+                        <option value="6">D</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>GE15-1106B</td>
+                <td>Environmental Studies</td>
+                <td>3</td>
+                <td>
+                    <select name="evs" id="evs">
+                        <option value="10">S</option>
+                        <option value="9.5">A+</option>
+                        <option value="9">A</option>
+                        <option value="8.5">B+</option>
+                        <option value="8">B</option>
+                        <option value="7.5">C+</option>
+                        <option value="7">C</option>
+                        <option value="6.5">D+</option>
+                        <option value="6">D</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>GE15-11L1B</td>
+                <td>Electrical Engineering 
+                    Workshop</td>
+                <td>1</td>
+                <td>
+                    <select name="eel" id="eel">
+                        <option value="10">S</option>
+                        <option value="9.5">A+</option>
+                        <option value="9">A</option>
+                        <option value="8.5">B+</option>
+                        <option value="8">B</option>
+                        <option value="7.5">C+</option>
+                        <option value="7">C</option>
+                        <option value="6.5">D+</option>
+                        <option value="6">D</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>GE15-11L2B</td>
+                <td>Computer Programming 
+                    Laboratory</td>
+                <td>1</td>
+                <td>
+                    <select name="cpl" id="cpl">
+                        <option value="10">S</option>
+                        <option value="9.5">A+</option>
+                        <option value="9">A</option>
+                        <option value="8.5">B+</option>
+                        <option value="8">B</option>
+                        <option value="7.5">C+</option>
+                        <option value="7">C</option>
+                        <option value="6.5">D+</option>
+                        <option value="6">D</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <button class="okbutton" value="CGPA">Get CGPA</button>
+    <br>
+    <br> 
+    <script src="script.js"></script> 
   </body>
 </html>
