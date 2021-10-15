@@ -128,3 +128,116 @@ function createRow(object) {
     }
   }
 }
+
+function s2012(){
+  console.log("2012 pressed ");
+  document.getElementById("department").style.visibility= "visible" ;
+  document.getElementById("me").style.visibility = "visible";
+  document.getElementById("ce").style.visibility = "visible";
+  document.getElementById("eee").style.visibility = "visible";
+  document.getElementById("ece").style.visibility = "visible";
+  document.getElementById("cse").style.visibility = "visible";
+  document.getElementById("it").style.visibility = "visible";
+
+}
+
+function s2015(){
+  console.log("2015 pressed ");
+  document.getElementById("department").style.visibility= "visible" ;
+  document.getElementById("me").style.visibility = "visible";
+  document.getElementById("ce").style.visibility = "visible";
+  document.getElementById("eee").style.visibility = "visible";
+  document.getElementById("ece").style.visibility = "visible";
+  document.getElementById("cse").style.visibility = "visible";
+  document.getElementById("it").style.visibility = "visible";
+
+}
+
+function s2019(){
+  console.log("2019 pressed ");
+  document.getElementById("department").style.visibility= "visible" ;
+  document.getElementById("me").style.visibility = "visible";
+  document.getElementById("ce").style.visibility = "visible";
+  document.getElementById("eee").style.visibility = "visible";
+  document.getElementById("ece").style.visibility = "visible";
+  document.getElementById("cse").style.visibility = "visible";
+  document.getElementById("it").style.visibility = "visible";
+}
+
+function dme(){
+  console.log("me pressed ");
+  document.getElementById("semester").style.visibility = "visible";
+  document.getElementById("1").style.visibility = "visible";
+  document.getElementById("2").style.visibility = "visible";
+  document.getElementById("3").style.visibility = "visible";
+  document.getElementById("4").style.visibility = "visible";
+  document.getElementById("5").style.visibility = "visible";
+  document.getElementById("6").style.visibility = "visible";
+  document.getElementById("7").style.visibility = "visible";
+  document.getElementById("8").style.visibility = "visible";
+}
+
+function dce(){
+  console.log("ce pressed ");
+  document.getElementById("semester").style.visibility = "visible";
+  document.getElementById("1").style.visibility = "visible";
+  document.getElementById("2").style.visibility = "visible";
+  document.getElementById("3").style.visibility = "visible";
+  document.getElementById("4").style.visibility = "visible";
+  document.getElementById("5").style.visibility = "visible";
+  document.getElementById("6").style.visibility = "visible";
+  document.getElementById("7").style.visibility = "visible";
+  document.getElementById("8").style.visibility = "visible";
+}
+
+function deee(){
+  console.log("eee pressed ");
+  document.getElementById("semester").style.visibility = "visible";
+  document.getElementById("1").style.visibility = "visible";
+  document.getElementById("2").style.visibility = "visible";
+  document.getElementById("3").style.visibility = "visible";
+  document.getElementById("4").style.visibility = "visible";
+  document.getElementById("5").style.visibility = "visible";
+  document.getElementById("6").style.visibility = "visible";
+  document.getElementById("7").style.visibility = "visible";
+  document.getElementById("8").style.visibility = "visible";
+}
+
+function dec(){
+  console.log("dec pressed ");
+  document.getElementById("semester").style.visibility = "visible";
+  document.getElementById("1").style.visibility = "visible";
+  document.getElementById("2").style.visibility = "visible";
+  document.getElementById("3").style.visibility = "visible";
+  document.getElementById("4").style.visibility = "visible";
+  document.getElementById("5").style.visibility = "visible";
+  document.getElementById("6").style.visibility = "visible";
+  document.getElementById("7").style.visibility = "visible";
+  document.getElementById("8").style.visibility = "visible";
+}
+
+function dcse(){
+  console.log("cse pressed ");
+  document.getElementById("semester").style.visibility = "visible";
+  document.getElementById("1").style.visibility = "visible";
+  document.getElementById("2").style.visibility = "visible";
+  document.getElementById("3").style.visibility = "visible";
+  document.getElementById("4").style.visibility = "visible";
+  document.getElementById("5").style.visibility = "visible";
+  document.getElementById("6").style.visibility = "visible";
+  document.getElementById("7").style.visibility = "visible";
+  document.getElementById("8").style.visibility = "visible";
+}
+
+function dit(){
+  console.log("it pressed ");
+  document.getElementById("semester").style.visibility = "visible";
+  document.getElementById("1").style.visibility = "visible";
+  document.getElementById("2").style.visibility = "visible";
+  document.getElementById("3").style.visibility = "visible";
+  document.getElementById("4").style.visibility = "visible";
+  document.getElementById("5").style.visibility = "visible";
+  document.getElementById("6").style.visibility = "visible";
+  document.getElementById("7").style.visibility = "visible";
+  document.getElementById("8").style.visibility = "visible";
+}
